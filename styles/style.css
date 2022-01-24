@@ -35,7 +35,7 @@ body{
 
 .slide-img{
     width: 100%;
-    height: 565px;
+    height: 540px;
     object-fit: cover;
 }
 
@@ -81,4 +81,10 @@ body{
 .package-card{
     width: 232px;
     height: 390px;
+}
+
+/* footer section styles */
+#footer-background{
+    background-color: #0B0D17;
+    color: #D9DBE1;
 }
