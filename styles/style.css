@@ -38,3 +38,47 @@ body{
     height: 565px;
     object-fit: cover;
 }
+
+/* Package section Styles */
+.tick-mark{
+    color: rgb(243, 240, 240);
+}
+.tick-mark-hot{
+    color: #5599ff;
+}
+.bg-tick-hot{
+    background-color: white;
+}
+.bg-tick{
+    background-color: rgb(0, 0, 168);
+}
+
+.package-btn{
+    background-color: #f496d221;
+    color: #3F87F5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.hot-package{
+    background-color: #3F87F5;
+    color: white;
+    border-radius: 26px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 252px;
+    height: 450px;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+.hot{
+    left: 85%;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    background-color: #FF4E4E;
+}
+.package-card{
+    width: 232px;
+    height: 390px;
+}
