@@ -3,9 +3,6 @@
 ----------------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto:wght@700&display=swap');
 
-/* font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; */
 
 /* Common Styles */
 body{
@@ -13,14 +10,13 @@ body{
 }
 
 /* Navication Bar Styles */
-.nav-name{
+.brand-name{
     font-size: 22px;
     font-weight: 700;
 }
 
 /* Banner Section Styles */
-
-.slide-btn{
+.banner-slide-btn{
     background-color: white;
     border: 0px;
     border-radius: 5px;
@@ -29,11 +25,11 @@ body{
     font-weight: 700;
     padding: 10px 40px;
 }
-.slide-btn:hover{
+.banner-slide-btn:hover{
     color:#3F87F5;
 }
 
-.slide-img{
+.banner-slide-img{
     width: 100%;
     height: 540px;
     object-fit: cover;
@@ -49,17 +45,23 @@ body{
 
 
 /* Package section Styles */
+.package-card{
+    width: 232px;
+    height: 390px;
+}
+
 .tick-mark{
     color: rgb(243, 240, 240);
 }
+.bg-tick{
+    background-color: rgb(0, 0, 168);
+}
+
 .tick-mark-hot{
     color: #5599ff;
 }
 .bg-tick-hot{
     background-color: white;
-}
-.bg-tick{
-    background-color: rgb(0, 0, 168);
 }
 
 .package-btn{
@@ -86,10 +88,6 @@ body{
     font-weight: 900;
     font-size: 14px;
     background-color: #FF4E4E;
-}
-.package-card{
-    width: 232px;
-    height: 390px;
 }
 
 /* footer section styles */
