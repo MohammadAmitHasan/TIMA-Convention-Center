@@ -22,11 +22,15 @@ body{
 
 .slide-btn{
     background-color: white;
-    color:#3F87F5;
-    padding: 10px 40px;
-    font-weight: 700;
     border: 0px;
     border-radius: 5px;
+    text-decoration: none;
+    color:#3F87F5;
+    font-weight: 700;
+    padding: 10px 40px;
+}
+.slide-btn:hover{
+    color:#3F87F5;
 }
 
 .slide-img{
