@@ -39,6 +39,15 @@ body{
     object-fit: cover;
 }
 
+/* Toast design */
+.toast-left-border{
+    border-left: 8px solid #3F87F5;
+}
+.fas.fa-gift{
+    color: #007CFFA1;
+}
+
+
 /* Package section Styles */
 .tick-mark{
     color: rgb(243, 240, 240);
